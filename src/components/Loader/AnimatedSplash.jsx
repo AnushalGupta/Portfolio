@@ -50,30 +50,38 @@ const handleVideoEnded = () => {
 
   return (
     <div
-      ref={containerRef}
-      style={{
-        position: "fixed",
-        inset: 0,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        background: "#3c0a19", // maroon background 
-        zIndex: 9999,
-        opacity: 1,
-      }}
-    >
+  ref={containerRef}
+  style={{
+    position: "fixed",
+    inset: 0,
+    overflow: "hidden",
+    backgroundColor: "#3c0a19",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    zIndex: 9999,
+  }}
+>
+
+     
       <video
         ref={videoRef}
         src={birdVideo}
-        style={{
-          width: "100%",
-          height: "100%",
-          objectFit: "cover", // fill screen nicely
-        }}
         autoPlay
         playsInline
         onEnded={handleVideoEnded}
-      />
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100vw",
+          height: "100vh",
+          objectFit: "cover",
+          objectPosition: "center",
+          maxWidth: "100%",
+          maxHeight: "100%",
+        }}
+    />
     </div>
   );
 }
