@@ -10,7 +10,7 @@ function SplashScreen(props) {
       <div
         className="screen"
         style={{
-          backgroundColor: "#3c0a19",
+          backgroundColor: "#3b0918",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",

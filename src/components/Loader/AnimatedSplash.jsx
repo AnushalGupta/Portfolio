@@ -55,7 +55,7 @@ const handleVideoEnded = () => {
     position: "fixed",
     inset: 0,
     overflow: "hidden",
-    backgroundColor: "#3c0a19",
+    backgroundColor: "#3b0918",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -76,7 +76,7 @@ const handleVideoEnded = () => {
           left: 0,
           width: "100%",
           height: "100%",
-          objectFit: "cover",
+          objectFit: "contain",
           objectPosition: "center",
         }}
     />
