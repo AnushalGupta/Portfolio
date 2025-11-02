@@ -6,21 +6,31 @@ export default function AnimatedSplash({ onFinish }) {
   const containerRef = useRef(null);
   const videoRef = useRef(null);
 
-  useEffect(() => {
-    const v = videoRef.current;
-    if (!v) return;
+useEffect(() => {
+  const v = videoRef.current;
+  if (!v) return;
 
-    // Try autoplaying video
-    const tryPlay = async () => {
-      try {
-        await v.play();
-      } catch (err) {
-        console.warn("Autoplay might be blocked:", err);
-      }
-    };
+  const playWithAudio = async () => {
+    try {
+      // start muted so autoplay is allowed
+      v.muted = true;
+      await v.play();
 
-    tryPlay();
-  }, []);
+      // after a short delay, unmute (some browsers keep muted if user hasn't interacted)
+      setTimeout(() => {
+        v.muted = false;
+        // optional: ensure volume up
+        v.volume = 1.0;
+        console.log("Attempted to unmute video");
+      }, 100); // 1 second after start
+    } catch (err) {
+      console.warn("Autoplay with audio blocked:", err);
+    }
+  };
+
+  playWithAudio();
+}, []);
+
 
 const handleVideoEnded = () => {
   const v = videoRef.current;
@@ -61,7 +71,6 @@ const handleVideoEnded = () => {
           objectFit: "cover", // fill screen nicely
         }}
         autoPlay
-        muted
         playsInline
         onEnded={handleVideoEnded}
       />
