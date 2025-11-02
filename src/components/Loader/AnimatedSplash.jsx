@@ -45,7 +45,7 @@ const handleVideoEnded = () => {
         if (typeof onFinish === "function") onFinish();
       },
     });
-  }, 300); // 300ms buffer after last frame
+  }, 20); // 300ms buffer after last frame
 };
 
   return (
@@ -74,12 +74,10 @@ const handleVideoEnded = () => {
           position: "absolute",
           top: 0,
           left: 0,
-          width: "100vw",
-          height: "100vh",
+          width: "100%",
+          height: "100%",
           objectFit: "cover",
           objectPosition: "center",
-          maxWidth: "100%",
-          maxHeight: "100%",
         }}
     />
     </div>
