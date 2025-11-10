@@ -26,7 +26,7 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  githubProfile: "https://github.com/AnushalGupta",
 };
 
 const socialMediaLinks = [
@@ -41,25 +41,25 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/AnushalGupta",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/anushal-gupta-79b273259/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:anushal7744@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://x.com/Anushalgupta",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
@@ -272,8 +272,8 @@ const certifications = {
       subtitle: "- Gov. Certificate",
       logo_path: "AICTE.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
+        "https://drive.google.com/file/d/14uZVwlhqugcSSbIsPWW1Lp7z9jDbbh0W/view?usp=sharing",
+      alt_name: "Certificate",
       color_code: "#ee3b3b99",
     },
     {
@@ -281,23 +281,23 @@ const certifications = {
       subtitle: "- Hackathon",
       logo_path: "hackathon.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
+        "https://drive.google.com/file/d/1AuqiDQUvwKO6g-hhwCAlNQdPlRs_MVvX/view?usp=sharing",
+      alt_name: "hackathon",
       color_code: "#0C9D5899",
     },
     {
-      title: "Electrical ",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
+      title: "Smart India Hackathon",
+      subtitle: "- 2024",
+      logo_path: "smart-india-hackathon.jpeg",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
+        "https://drive.google.com/file/d/1CSfr5oA57Oc2UAbcNOXEMyCtNXz699MC/view?usp=sharing",
+      alt_name: "SIM",
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "DRDO",
+      subtitle: "- Internship",
+      logo_path: "drdo-logo.png",
       certificate_link:
         "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
       alt_name: "Microsoft",
@@ -467,31 +467,23 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "animated-anushal.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
+
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "Greater Noida ,Uttar Pradesh",
+    country: "INDIA",
+    region: "GREATER NOIDA",
+    postalCode: "201310",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/rT4Ng5BWAdEPDA9G7",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Phone No.",
+    subtitle: "+91 9468373725",
   },
 };
 
