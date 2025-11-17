@@ -303,6 +303,15 @@ const certifications = {
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },
+    {
+      title: "Data Analytics",
+      subtitle: "- SkillUp",
+      logo_path: "new_logo.svgz",
+      certificate_link:
+        "https://drive.google.com/file/d/1xDDlEYF5LJctqTynVdB3eXlcVD9AcQgA/view?usp=sharing",
+      alt_name: "data analytics",
+      color_code: "#ffffffdc",
+    },
   ],
 };
 
