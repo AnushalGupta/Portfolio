@@ -1,5 +1,5 @@
 .pr-chart {
-  width: 100%;
+  width: 50%;
   text-align: center;
 }
 
@@ -12,6 +12,10 @@ canvas {
 }
 
 @media (max-width: 768px) {
+  .pr-chart {
+    width: 100%;
+  }
+
   .pr-chart-header {
     font-size: 20px;
   }

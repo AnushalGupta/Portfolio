@@ -1,5 +1,5 @@
 .issue-chart {
-  width: 100%;
+  width: 50%;
   text-align: center;
 }
 
@@ -11,6 +11,10 @@
 }
 
 @media (max-width: 768px) {
+  .issue-chart {
+    width: 100%;
+  }
+
   .issue-chart-header {
     font-size: 20px;
   }
