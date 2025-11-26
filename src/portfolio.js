@@ -337,7 +337,7 @@ const experience = {
           duration: "Oct 2025 - Apr 2026",
           location: "New Delhi, India",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "Working on EEG-based pilot mental-state classification for aviation safety. Performing EEG preprocessing & feature extraction using Python, MNE-Python. Training ML/DL models using Scikit-learn, PyTorch for state prediction. Building a simple evaluation & visualization pipeline (Streamlit).",
           color: "#000000",
         },
         {
@@ -345,10 +345,10 @@ const experience = {
           company: "HCL Technologies",
           company_url: "https://www.hcltech.com/",
           logo_path: "hcl-logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
+          duration: "Nov 2024 - Jan 2025",
+          location: "Greater Noida",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+            "Developed 'Instamart,' a functional e-commerce platform utilizing Java for robust backend logic and SQL Server for secure data management. The project involved designing schema for user authentication and product inventory, integrated within an AI-focused web development curriculum.",
           color: "#0071C5",
         },
       ],
