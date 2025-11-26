@@ -9,7 +9,9 @@
 
 .issues-body-div {
   text-align: center;
-  width: 100%;
+  width: auto;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 @media (max-width: 1380px) {

@@ -1,3 +1,12 @@
 .opensource-main {
   width: 100%;
 }
+@media (max-width: 1380px) {
+  .experience-heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .experience-heading-sub-text {
+    font-size: 25px;
+  }
+}
