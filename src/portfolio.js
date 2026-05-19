@@ -16,10 +16,10 @@ const greeting = {
   title: "Anushal Gupta",
   logo_name: "AnushalGupta",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Data Analyst focused on SQL, Power BI, and ETL workflows with experience transforming large-scale datasets into business insights and automated reporting solutions.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  portfolio_repository: "https://github.com/AnushalGupta/Portfolio",
   githubProfile: "https://github.com/AnushalGupta",
 };
 
@@ -32,7 +32,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/anushal-gupta-79b273259/",
+    link: "https://www.linkedin.com/in/AnushalGupta/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -244,6 +244,33 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Data Analytics",
+      subtitle: "- SkillUp",
+      logo_path: "new_logo.svgz",
+      certificate_link:
+        "https://drive.google.com/file/d/1xDDlEYF5LJctqTynVdB3eXlcVD9AcQgA/view?usp=sharing",
+      alt_name: "data analytics",
+      color_code: "#ffffffdc",
+    },
+    {
+      title: "Data Analytics Intern",
+      subtitle: "- DRDO",
+      logo_path: "drdo-logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1putfYHuO4REeYDajXvZpSR1dDaATmeDw/view?usp=sharing",
+      alt_name: "DRDO",
+      color_code: "#D83B0199",
+    },
+    {
+      title: "Snowflake Hands-on Badge",
+      subtitle: "- Snowflake",
+      logo_path: "Snowflake_Logo.svg.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1JC-ne2bvYOBl5jLMQ8IT7y4tpMxkFjwH/view?usp=sharing",
+      alt_name: "HCL Certificate",
+      color_code: "#f77e7ea9",
+    },
+    {
       title: "Java Web Development with AI",
       subtitle: "- HCL Training",
       logo_path: "HCL.png",
@@ -279,24 +306,6 @@ const certifications = {
       alt_name: "SIM",
       color_code: "#1F70C199",
     },
-    {
-      title: "DRDO",
-      subtitle: "- Internship",
-      logo_path: "drdo-logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Data Analytics",
-      subtitle: "- SkillUp",
-      logo_path: "new_logo.svgz",
-      certificate_link:
-        "https://drive.google.com/file/d/1xDDlEYF5LJctqTynVdB3eXlcVD9AcQgA/view?usp=sharing",
-      alt_name: "data analytics",
-      color_code: "#ffffffdc",
-    },
   ],
 };
 
@@ -329,8 +338,8 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Defence Research and Development Organisation",
-          company: "INMAS",
+          title: "Data Analytics Intern",
+          company: "Defence Research and Development Organisation",
           company_url:
             "https://www.indiascienceandtechnology.gov.in/organisations/ministry-and-departments/defence-research-and-development-organisation-drdo-govt-india/institute-nuclear-medicine-allied-sciences-inmas",
           logo_path: "drdo-logo.png",
@@ -341,7 +350,7 @@ const experience = {
           color: "#000000",
         },
         {
-          title: "HCL Training",
+          title: "Java Web Development with AI",
           company: "HCL Technologies",
           company_url: "https://www.hcltech.com/",
           logo_path: "hcl-logo.jpg",
