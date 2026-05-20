@@ -227,14 +227,14 @@ const degrees = {
   degrees: [
     {
       title: "KCC Institute of Technology and Management",
-      subtitle: "B.Tech. in Computer Engineering",
+      subtitle: "B.Tech ( Computer Science & Engineering ) ",
       logo_path: "kcc.png",
       alt_name: "KCC ITM",
       duration: "2022 - 2026",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ Drove project completion across multiple software development cycles, gaining valuable experience in team collaboration and mentorship/leadership of junior members",
+        "⚡ Studied core Computer Science subjects including Data Structures, DBMS, Operating Systems, Computer Networks, Software Engineering, and System Design.",
+        "⚡ Participated in multiple technical projects and hackathons, gaining practical exposure to software development workflows, problem-solving, and collaborative engineering environments.",
+        "⚡ Worked across cross-functional teams on academic and technical projects, strengthening communication, teamwork, project coordination, and leadership abilities.",
       ],
       website_link: "https://www.kccitm.edu.in/",
     },
@@ -314,7 +314,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internship",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "During my academic journey, I gained practical industry exposure through internships and project-based work in data analytics &git  machine learning. I have worked on real-world datasets, collaborative technical projects, and analytical workflows involving SQL, Python, ETL pipelines, and reporting systems.",
   header_image_path: "experience.svg",
   sections: [
     {

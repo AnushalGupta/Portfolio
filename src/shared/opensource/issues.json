@@ -1,6 +1,26 @@
 {
-  "closed": 1,
+  "closed": 2,
   "data": [
+    {
+      "id": "I_kwDOHS0Hg874Ro8M",
+      "closed": true,
+      "title": "[BUG] Unable to refresh the app in Sidestore",
+      "createdAt": "2026-03-29T18:09:53Z",
+      "url": "https://github.com/SideStore/SideStore/issues/1226",
+      "number": 1226,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "SideStore",
+        "url": "https://github.com/SideStore/SideStore",
+        "owner": {
+          "login": "SideStore",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/105070799?v=4",
+          "url": "https://github.com/SideStore"
+        }
+      }
+    },
     {
       "id": "I_kwDOF9omLM6Ks-3j",
       "closed": true,
@@ -23,5 +43,5 @@
     }
   ],
   "open": 0,
-  "totalCount": 1
+  "totalCount": 2
 }
