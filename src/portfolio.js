@@ -264,7 +264,7 @@ const certifications = {
     {
       title: "Snowflake Hands-on Badge",
       subtitle: "- Snowflake",
-      logo_path: "Snowflake_Logo.svg.png",
+      logo_path: "snowflake_logo.png",
       certificate_link:
         "https://drive.google.com/file/d/1JC-ne2bvYOBl5jLMQ8IT7y4tpMxkFjwH/view?usp=sharing",
       alt_name: "HCL Certificate",
