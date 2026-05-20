@@ -267,7 +267,7 @@ const certifications = {
       logo_path: "snowflake_logo.png",
       certificate_link:
         "https://drive.google.com/file/d/1JC-ne2bvYOBl5jLMQ8IT7y4tpMxkFjwH/view?usp=sharing",
-      alt_name: "HCL Certificate",
+      alt_name: "Snowflake Certificate",
       color_code: "#f77e7ea9",
     },
     {
